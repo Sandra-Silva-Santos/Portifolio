@@ -1,0 +1,93 @@
+/*Box 1 */
+
+section.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: #fffafa;
+}
+
+section.experience h2.experience__section__title {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0 10px 0px;
+    color: var(--cor-sobre-mim);
+}
+
+div#experiencia-box-segundo h2.experience__title {
+    margin-top: 20px;
+    color: var(--cor-de-link);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-sobre-mim);
+}
+
+section.experience div.experience__info div.experience__text {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: var(--cor-sobre-mim);
+}
+
+h2.experience__title {
+    color: var(--cor-sobre-mim);
+    text-align: center;
+    font-size:bold;
+}
+
+section.experience div.experiencie__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+
+h3.experience__text {
+    text-align: center;
+    font-size: 10px;
+    color: #0a366d;
+}
+
+section.experience div#experiencia-box-segundo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+
+}
+
+section.experience div#experiencia-box-segundo img.experience__img {
+    border: 2px solid var(--cor-sobre-mim);
+    width: 100%;
+    border-radius: 5px;
+}
+
+div#experiencia-box-segundo button.experiencia__botao--demo,
+div#experiencia-box-segundo button.experiencia__botao--repo {
+    width: 70px;
+    height: 20px;
+    text-align: center;    
+    background-color: rgb(72,172,252);
+    border-radius: 7px;
+    font-size: 10px;
+    margin: 5px 5px;
+}
+
+div#experiencia-box-segundo button.experiencia__botao--demo:hover,
+div#experiencia-box-segundo button.experiencia__botao--repo:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+    border: 2px solid var(--cor-sobre-mim);
+    background-color:rgb(152, 155, 233);
+}

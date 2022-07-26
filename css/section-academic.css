@@ -1,0 +1,67 @@
+section.academic {
+    display: flex;
+    background: rgb(40, 40, 80);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.academic div.academic-courses {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1
+
+}
+
+section.academic div.academic-courses-box {
+    width: 300px;
+    margin: 10px 10px;
+}
+
+
+section.academic h2.academic-title {
+    width: 100%;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor-de-fundo);
+    margin: 50px;
+}
+
+
+div.academic-courses ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div.academic-courses ul li {
+    margin: 33px;
+    padding: 0;
+    color: var(--cor-de-fundo);
+}
+
+li.academic__courses__item__title h3 {
+    font-size: 1.5em;
+}
+
+li.academic__courses__item__subtitle p {
+    align-items: center;
+}
+
+section.academic div.academic-courses-box ul.academic-courses-list li.academic-courses-item-img {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    border: black solid 4px;
+    border-radius: 10px;
+
+
+}
+
+
+

@@ -1,0 +1,136 @@
+
+section.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 15vh;
+    
+    
+}
+
+
+
+div.section-menu {
+    padding: 10px 10px;
+    background-color: var(--cor-fundo);
+}
+
+
+
+/*-- Trabalhando com  nome e icones*/
+
+section header {
+    display: flex;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+    color:royalblue
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    justify-content: center;
+
+    
+}
+
+header:hover {
+    color: rgb(72, 172, 252);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-sobre-mim);
+    transition: 0.7s;
+}
+
+a:hover {
+    color: royalblue
+}
+
+
+/*links de redes sociais*/
+
+
+nav ul.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    font-size: 15px;
+    font-weight: 250;
+    margin-right: 10%;
+}
+
+/* -- Trabalhando Sessão Titulos -- */
+
+section.title {
+    margin: 40px 0px;
+    line-height: 80px;
+    justify-items: space-around;
+
+    
+}
+
+
+/* -- Trabalhando o tamanho do conteiner -- */
+
+div.title-container {
+    padding: 0px;
+}
+
+
+/* -- Trabalhando Titulo principal -- */
+
+section.title div.title-div div.title-container h2 {
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 80px;
+    color: var(--cor-sobre-mim);
+}
+
+section.title div.title-div div.title-container h3 {
+    display: flex;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+
+/* -- Trabalhando organização de sessão de titulo -- */
+
+div.title-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+section.title img.title-profile {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+
+}
+
+section.title div.title-div div.title-container ul.title-network {
+    display: flex;
+    justify-content: space-between; margin-right: 5%; margin-top: 30px;
+    align-items: center;
+    padding:0;
+}
+

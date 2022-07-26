@@ -1,0 +1,38 @@
+section.skills {
+    background: (--cor-skill-form);
+    padding: 18px 160px;
+
+}
+
+section.skills div.skills-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.skills div.skills-line div.skills-box {
+    background-color: var(--cor-skill-form);
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+section.skills h3.skills-title {
+    color: var(--cor-sobre-mim);
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.skills-box ul {
+    margin: 0;
+    padding: 0;
+
+}
