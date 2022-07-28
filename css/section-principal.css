@@ -1,33 +1,30 @@
 
 section.menu {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     height: 15vh;
-    
-    
-}
-
-
-
-div.section-menu {
-    padding: 10px 10px;
     background-color: var(--cor-fundo);
+       
 }
 
+/*links de redes sociais*/
+
+nav ul.menu-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1
+}
 
 
 /*-- Trabalhando com  nome e icones*/
 
 section header {
-    display: flex;
-    padding: 10px;
-    display: flex;
+    padding: 1rem;
     align-items: center;
-    justify-content: space-between;
     font-weight: 800;
     color:royalblue
 }
@@ -35,7 +32,6 @@ section header {
 header img {
     width: 32px;
     height: 32px;
-    margin-right: 5px;
     justify-content: center;
 
     
@@ -56,20 +52,6 @@ a:hover {
     color: royalblue
 }
 
-
-/*links de redes sociais*/
-
-
-nav ul.menu-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 85%;
-    font-size: 15px;
-    font-weight: 250;
-    margin-right: 10%;
-}
-
 /* -- Trabalhando Sessão Titulos -- */
 
 section.title {
@@ -80,19 +62,20 @@ section.title {
     
 }
 
-
 /* -- Trabalhando o tamanho do conteiner -- */
 
 div.title-container {
     padding: 0px;
+
 }
 
 
 /* -- Trabalhando Titulo principal -- */
 
 section.title div.title-div div.title-container h2 {
+    padding-top: 2rem;
+    font-size: 1.7rem;
     display: flex;
-    font-size: 35px;
     font-weight: 700;
     line-height: 80px;
     color: var(--cor-sobre-mim);
@@ -121,8 +104,9 @@ div.title-div {
 }
 
 section.title img.title-profile {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    justify-items: auto;
     align-items: center;
 
 }
