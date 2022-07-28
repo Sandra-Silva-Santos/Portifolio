@@ -5,10 +5,12 @@ section.skills {
 }
 
 section.skills div.skills-line {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
 }
 
 section.skills div.skills-line div.skills-box {
