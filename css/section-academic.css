@@ -16,8 +16,8 @@ section.academic div.academic-courses {
 }
 
 section.academic div.academic-courses-box {
-    width: 300px;
-    margin: 10px 10px;
+    width: 265px;
+
 }
 
 
@@ -25,10 +25,10 @@ section.academic h2.academic-title {
     width: 100%;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: var(--cor-de-fundo);
-    margin: 50px;
+    margin: 25px;
 }
 
 
@@ -39,7 +39,7 @@ div.academic-courses ul {
 }
 
 div.academic-courses ul li {
-    margin: 33px;
+    margin: 20px;
     padding: 0;
     color: var(--cor-de-fundo);
 }
@@ -53,15 +53,11 @@ li.academic__courses__item__subtitle p {
 }
 
 section.academic div.academic-courses-box ul.academic-courses-list li.academic-courses-item-img {
-    padding: 20px 20px;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
-    padding: 10%;
     border: black solid 4px;
     border-radius: 10px;
 
 
 }
-
-
-
