@@ -131,11 +131,12 @@ utilize como referência os breakpoints @media abaixo*/
   .container {
     width: 768px;
     max-width: 100%;
-
   }
-
   .formcontato--esquerda {
     display: none;
+  }
+  nav ul.menu-list {
+    padding: 0.5rem 0;
   }
 }
 
@@ -143,6 +144,9 @@ utilize como referência os breakpoints @media abaixo*/
   .container {
     width: 576px;
     max-width: 100%;
+  }
+  section.title img.title-profile {
+    padding: 1rem 0;
   }
 }
 
