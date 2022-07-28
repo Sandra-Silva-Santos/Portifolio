@@ -22,7 +22,6 @@ section.hobbies div.hobbies-line div.hobbies-box {
     background-color: #ebe3d8;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     justify-content: flex-end;
     padding: 16px;
     margin: 23px 15px 23px 8px;
