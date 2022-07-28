@@ -126,12 +126,19 @@ utilize como referência os breakpoints @media abaixo*/
       max-width: 100%;
     }
   }
+  @media (max-width: 768px){
+    .container {
+      width: 768px;
+      max-width: 100%;
+    } 
+   .formcontato--esquerda{
+      display: none;
+    }
+  }
   @media  (max-width: 576px){
     .container {
       width: 576px;
       max-width: 100%;
-
-
     }
   }
   @media  (max-width: 480px){
