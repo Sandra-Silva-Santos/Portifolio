@@ -10,18 +10,18 @@ section.skills div.skills-line {
     justify-content: space-around;
     flex-wrap: wrap;
 
-    
+
 }
 
 section.skills div.skills-line div.skills-box {
     background-color: var(--cor-skill-form);
     display: flex;
     flex-direction: column;
-    margin: 20px 10px 50px 0px;
+    margin: 1rem;
     justify-content: center;
     align-items: center;
     width: 150px;
-    height: 130px;
+    height: 150px;
     border-radius: 10px;
 }
 
