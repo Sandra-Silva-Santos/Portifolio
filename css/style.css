@@ -145,9 +145,6 @@ utilize como referência os breakpoints @media abaixo*/
     width: 576px;
     max-width: 100%;
   }
-  section.title img.title-profile {
-    padding: 1rem 0;
-  }
 }
 
 @media (max-width: 480px) {
