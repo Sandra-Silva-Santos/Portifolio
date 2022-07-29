@@ -12,12 +12,9 @@ section .formcontato__text{
 
 }
 
-
-
 .formcontato--esquerda {
     display: flex;
     flex-direction: column;
-
 
 }
 .formcontato__img {
@@ -34,7 +31,6 @@ section .formcontato__text{
     justify-content: center;
     align-items: center;
 
-
 }
 
 section.formcontato div.formcontato__contacto {
@@ -45,7 +41,7 @@ section.formcontato div.formcontato__contacto {
 }
 
 h2.formcontato__title {
-    margin-left: 35px;
+    margin-left: 1rem;
     line-height: 70px;
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -58,8 +54,6 @@ h3.formcontato__subtext {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: var(--cor-sobre-mim);
-
- 
 
 }
 
