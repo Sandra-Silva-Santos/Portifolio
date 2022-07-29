@@ -1,11 +1,9 @@
-//Seu JavaScript de validação aqui - validando formulario
-//Declaração das variaveis
+
 var formContato = document.querySelector('#form')
 
 
-formContato.onsubmit = event => {
+event => {
 
-    //VERIFICANDO OS CAMPOS
     var nome = document.querySelector('#nome').value;
 
 
