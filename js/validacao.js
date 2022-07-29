@@ -2,42 +2,28 @@
 var formContato = document.querySelector('#form')
 
 
-event => {
+formContato.addEventListener('submit', function(event){
+    event.preventDefault()
 
-    var nome = document.querySelector('#nome').value;
+    var nome = document.querySelector('#nome')
+    var email = document.querySelector('#email')
+    var mensagem = document.querySelector('#mensagem')
 
-
-    if (nome === '') {
-        event.preventDefault();
-        document.getElementById('msgError').innerHTML = 'Falha : Nome não digitado!!';
-        return;
-
+    if(nome.value == ''){
+        alert('Preencha o nome')
+        nome.focus()
+        return false
     }
 
-    var email = document.querySelector("#email").value;
-
-    if (email === '') {
-        event.preventDefault();
-        document.getElementById('msgError').innerHTML = 'Falha : Digite email valido!!';
-        return;
+    if(email.value == ''){
+        alert('Preencha o email')
+        email.focus()
+        return false
     }
 
-    var assunto = document.querySelector("#assunto").value;
-
-    if (assunto === '') {
-        event.preventDefault();
-        document.getElementById('msgError').innerHTML = 'Falha : Insira o assunto !!';
-        return;
-    }
-    var texto = document.querySelector("#mensagem").value;
-
-    if (texto === '') {
-        event.preventDefault();
-        document.getElementById('msgError').innerHTML = 'Falha : Esqueceu da mensagem!!';
-        return;
-    }
-
-    alert('Formulario enviado com sucesso!!');
-
-    formContato.reset();
-}
+    if(mensagem.value == ''){
+        alert('Preencha a mensagem')
+        mensagem.focus()
+        return false
+  }
+}, false)
