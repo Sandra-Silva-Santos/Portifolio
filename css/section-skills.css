@@ -1,6 +1,6 @@
 section.skills {
     background: (--cor-skill-form);
-    padding: 18px 160px;
+    padding: 10px 30px;
 
 }
 
@@ -16,7 +16,7 @@ section.skills div.skills-line div.skills-box {
     background-color: var(--cor-skill-form);
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
     justify-content: center;
     align-items: center;
     width: 100px;
@@ -29,7 +29,7 @@ section.skills h3.skills-title {
     color: var(--cor-sobre-mim);
     font-family: 'Poppins' sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 2rem;
     text-align: center;
 }
 
