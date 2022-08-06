@@ -19,12 +19,13 @@ section.skills div.skills-line div.skills-box {
     margin: 1rem;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
 section.skills h3.skills-title {
+    margin: 2rem;
     color: var(--cor-sobre-mim);
     font-family: 'Poppins' sans-serif;
     font-weight: 700;
