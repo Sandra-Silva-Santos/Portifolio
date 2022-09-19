@@ -1,0 +1,97 @@
+body{
+    margin: 2em;
+    padding: auto;
+    font-family: "Arial", Helvetica, sans-serif;
+
+}
+
+i{
+    font-size: 25px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+container{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+row{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popover{ 
+    display: block
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 1em;
+}
+.list-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    margin-top: 0.25em;
+}
+.profile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1em;
+}
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#academic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+
+
+}
+#hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+
+
+.logo-github,
+.logo-instagram,
+.logo-twitter,
+.logo-linkedin,
+.logo-lastfm,
+.logo-youtube {
+  width: 32px;
+  height: 32px;
+
+}
+
