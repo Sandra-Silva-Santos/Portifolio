@@ -3,370 +3,433 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Folha de estilo de CSS Linkado -->
+    <meta name="description" content="Portifolio">
+    <title>Portifolio</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/section-principal.css">
-    <link rel="stylesheet" href="css/section-sobremim.css">
-    <link rel="stylesheet" href="css/section-skills.css">
-    <link rel="stylesheet" href="css/section-hobbis.css">
-    <link rel="stylesheet" href="css/section-academic.css">
-    <link rel="stylesheet" href="css/section-experience-codificador.css">
-    <link rel="stylesheet" href="css/section-experience-forca.css">
-    <link rel="stylesheet" href="css/section-contato.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <script src="js/script.js" defer></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
-    <!-- Fonte do Projeto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <title>Portifólio</title>
 </head>
 
+
 <body>
-    <!-- Menu principal  -->
+    <main class="conteiner">
 
-    <body>
-        <div class="container">
-            <section class="menu">
-                <header>
-                    <div class="section-menu">
-                        <img src="img/vector.png">
-                        <h3 class="menu-title">Sandra</h3>
-                </header>
-                <nav>
-                    <ul class="menu-list">
-                        <li class="menu-list-item"><a href="#sobremim">Sobre mim</a></li>
-                        <li class="menu-list-item"><a href="#skills">Skills</a></li>
-                        <li class="menu-list-item"><a href="#hobbies">Hobbies</a></li>
-                        <li class="menu-list-item"><a href="#formacao">Formações e Cursos</a></li>
-                        <li class="menu-list-item"><a href="#xp">Experiência</a></li>
-                        <li class="menu-list-item"><a href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
-            </section>
-
-            <!-- Sessão de Header/Title/Hero -->
-            <section class="title">
-                <div class="title-div">
-                    <img class="title-profile" src="img/Eu.png">
-                    <div class="title-container" id="sobremim">
-                        <h2 class="title-bio">Olá, meu nome é Sandra.</h2>
-                        <h3 class="title-subsection">Estudante apaixonada por tecnologia e eterna aprendiz de
-                            programação e desenvolvimento.<br>
-                            Atualmente estou participando do projeto Oracle ONE na Alura <br> e Elas na Tech J.A
-                            Brasil com foco em Desenvolvido Web além do curso de UX Design do Google </h3>
-                        <ul class="title-network">
-                            <!-- Links de redes -->
-                            <li class="title-network-item"><a href="https://github.com/Sandra-Silva-Santos"
-                                    target="_blank">Github <img src="img/arrow.png"> </a></li>
-                            <li class="title-network-item"><a href="https://linkedin.com/in/sandra-silva-santos"
-                                    target="_blank">Linkedin <img src="img/arrow.png"></a></li>
-                            <li class="title-network-item"><a href="https://www.instagram.com/negasaopaulina"
-                                    target="_blank">Instagram <img src="img/arrow.png"></a></li>
-                            <li class="title-network-item"><a href="#" target="_blank">Curriculo <img
-                                        src="img/arrow.png"></a></li>
-                        </ul>
+        <section class="menu">
+            <header class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="p-2">
+                        <h1>Sandra</h1>
+                    </div>
+                    <div class="p-2">
+                        <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
                     </div>
                 </div>
-            </section>
-        </div>
+                <nav class="navbar">
+                    <nav class="navbar navbar-collapse">
+                        <div class="container-fluid">
+                            <a class="navbar" href="#home">Home</a>
+                            <a class="navbar" href="#sobre">Sobre</a>
+                            <a class="navbar" href="#hobbies">Hobbies</a>
+                            <a class="navbar" href="#contato">Contato</a>
+                            <a class="navbar" href="#academic">Formação e Cursos</a>
+                            <a class="navbar" href="#skills">Skills</a>
+                            <a class="navbar" href="#experiencia">Experiência</a>
+                            </a>
+                    </nav>
+            </header>
+        </section>
 
-        <!-- Falando um pouco sobre mim -->
-        <section class="about">
-            <div class="about-container">
-                <h3 class="about-title">Sobre mim</h3>
-                <p class="bio">
-                    Sou estudante de Engenharia da Computação aqui de São Paulo.<br>
-                    Sou muito "gente boa" e vocês precisam me conhecer ;-)<br>
-                    Gosto muito de estudar e além da Faculdade estou fazendo alguns cursos extracurriculares<br>
-                    sendo este portifólio uma das atividades propostas. <br>
+        <section class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Olá, meu nome é Sandra</h2><br>
+                        <p class="fw-light">Estudante de Engenharia da Computação apaixonada por tecnologia
+                            e eterna aprendiz de programação e desenvolvimento.
+                            Atualmente estou participando do projeto Oracle ONE Alura
+                            e Elas na Tech J.A Brasil com foco em Desenvolvido Web além do curso de UX Design do Google.
+                        </p><br>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="https://github.com/Sandra-Silva-Santos"
+                                    target="_blank">Github
+                                    <img src="img/arrow.png"> </a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/sandra-silva-santos"
+                                    target="_blank">Linkedin <img src="img/arrow.png"></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/negasaopaulina"
+                                    target="_blank">Instagram <img src="img/arrow.png"></a></li>
+                            <li class="list-inline-item"><a href="#" target="_blank">Curriculo <img
+                                        src="img/arrow.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <img class="profile" src="img/Eu.png" width="250" height="250">
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+
+
+        <section class="sobre">
+            <div class="container max-width">
+                <h3 class="sobre" id="sobre"></h3>
+                <h2>Sobre mim</h2><br>
+                <p class="fw-light">
+                    Sou estudante de Engenharia da Computação aqui de São Paulo.
+                    Sou muito "gente boa" e vocês precisam me conhecer ;-)
+                    Gosto muito de estudar e além da Faculdade estou fazendo alguns cursos extracurriculares
+                    sendo este portifólio uma das atividades propostas.
                     Está longe da perfeição e apresenta erros no "responsivo" mas , por enquanto, manterei
-                    assim...<br>
+                    assim...
                     Desta forma será possível acompanhar a evolução do meu aprendizado e as correções no
                     repositório!<br>
                     <br>Grande abraço!
                 </p>
-
             </div>
         </section>
 
-        <!-- Habilidades Tecnicas  -->
-        <section class="skills">
-            <h3 class="skills-title" id="skills">Skills *</h3>
-            <div class="skills-line">
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills-img"><img src="img/html5.png" alt="Icone do html"></li>
-                        <li class="skills-name"></li>
-                    </ul>
-                </div>
 
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"> <img src="img/css3.png" alt="Icone do css"></li>
-                        <li class="skills__name"></li>
-                    </ul>
-                </div>
 
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"> <img src="img/javascript.png" alt="Icone do javascript"></li>
-                        <li class="skills__name"></li>
-                    </ul>
+        <section class="skills container text-center ">
+            <h3 class="skills" id="skills">Skills</h3>
+            <div class="row align-items-center ">
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <p>Essas são algumas das habilidades que estou aprendendo e desenvolvendo na trilha do
+                            conhecimento.
+                            Pouca coisa, ainda no incio, mas com todo o gás para aprender muito mais .</p>
+                    </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="h-100 py-5 ">
+                        <div class="row-flex row-cols-md">
+                            <img src="img/bootstrap.png" alt="..." class="img-rounded">
+                            <img src="img/java.png" alt="..." class="img-rounded">
+                            <img src="img/git.png" alt="..." class="img-rounded">
+                        </div><br><br>
+                        <div class="row-flex row-cols-md">
+                            <img src="img/html5.png" alt="..." class="img-rounded">
+                            <img src="img/css3.png" alt="..." class="img-rounded">
+                            <img src="img/javascript.png" alt="..." class="img-rounded">
+                        </div>
 
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"> <img src="img/git.png" alt="Icone do Github"></li>
-                        <li class="skills__name"></li>
-                    </ul>
-                </div>
-                
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"> <img src="img/bootstrap.png" alt="Icone do Bootstrap"></li>
-                        <li class="skills__name"></li>
-                    </ul>
-                </div>
-
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"><img src="img/python.png" alt="Icone do Python"></li>
-                        <li class="skills__name"></li>
-                    </ul>
-                </div>
-                
-                <div class="skills-box">
-                    <ul>
-                        <li class="skills__img"> <img src="img/java.png" alt="Icone do Java"></li>
-                        <li class="skills__name"></li>
-                    </ul>
-                </div>
-                
-            </div>
-        </section>
-
-        <!-- Parte de Lazer Hobbis -->
-        <section class="hobbies" id="hobbies">
-            <h3 class="hobbies-title">Hobbies</h3>
-            <div class="hobbies-line">
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies-img"><img src="img/dormir.png"></li>
-                        <li class="hobbies-name">Dormir</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="img/Estudar.png" alt=""></li>
-                        <li class="hobbies-name">Estudar</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies-img"> <img src="img/controle.png" alt="Hobbi Filmes e Cinema"></li>
-                        <li class="hobbies-name">Games e Jogos Retrô</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies-img"><img src="img/futebol.png" alt="Hobbi Saborear Cafe"></li>
-                        <li class="hobbies-name">Acompanhar SPFC ❤️</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies-img"> <img src="img/guitar.png" alt="Hobbi Cozinhar"> </li>
-                        <li class="hobbies-name">Guitarra e RocK n' Roll</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies-box">
-                    <ul>
-                        <li class="hobbies-img"><img src="img/tv.png" alt="Hobbi Ler"> </li>
-                        <li class="hobbies-name">Filmes e Series</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Formação Academica -->
-        <section class="academic">
-            <h2 class="academic-title" id="formacao">Formação Acadêmica</h2>
-            <div class="academic-courses">
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/logo-univesp.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>Engenharia da Computação </h3><br>
-                            <p>Univesp</p><br>
-                            </p>2021 até o momento</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/Google.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>Certificado Profissional</h3><br>Formação em <br>
-                            Design de UX do Google<br>
-                            <br>
-                            <p>2022 - Em andamento</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/Coursera.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>Coursera Usp</h3><br>Formação em <br> Introdução à Ciência da Computação com
-                            Python Parte
-                            1<br>
-                            <br>
-                            <p>2021 - Concluído Fev/2022</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/alura.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>Oracle Next Education e Alura</h3><br>Formação em <br>
-                            Lógica de Programação<br>Front-end<br>Java<br>Empreendorismo<br>
-                            <br>
-                            <p>2022 - Em andamento</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/Dio.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>JavaScript </h3><br>Formação em <br>
-                            Game Developer<br>
-                            <br>
-                            <p>2022 - Em andamento</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="academic-courses-box">
-                    <ul class="academic-courses-list">
-                        <li class="academic-courses-item-img" id="img"><img src="img/JABrasil_CCR.png"></li>
-                        <li class="academic__courses__item__title">
-                            <h3>JA Brasil e Grupo CCR</h3><br>Formação em <br> Desenvolvemento Web<br>
-                            <br>
-                            <p>2022 - Em andamento</p>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Projetos realizados -->
-        <section class="experience">
-            <h2 class="experience__section__title" id="xp">Experiência Profissional **</h2>
-            <div class="experiencie__box" id="experiencia-box-primeiro">
-                <img class="experience__img" src="img/Decodificador.png">
-                <div class="experience__info">
-                    <h2 class="experience__title">Desafio da Trilha</h2>
-                    <h3 class="experience__text">Criar um Codificador</h3>
-                    <div class="experience__description">
-
-                        <span class="experience__repo"><a href="https://github.com/Sandra-Silva-Santos/Decodificador"
-                                target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href="https://sandra-silva-santos.github.io/Decodificador/"
-                                target="_blank"><button class="experiencia__botao--demo">Ver
-                                    demo</button></a></span>
                     </div>
                 </div>
             </div>
-            <div class="experiencie__box" id="experiencia-box-segundo">
-                <img class="experience__img" src="img/Jogo-da-Forca.png">
-                <div class="experience__info">
-                    <h2 class="experience__title">Desafio da Trilha</h2>
-                    <h3 class="experience__text">Criar o Jogo da Forca</h3>
-                    <div class="experience__description">
+            </div>
 
-                        <span class="experience__repo"><a href="https://github.com/Sandra-Silva-Santos/Jogo-da-Forca"
-                                target="_blank"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href="https://sandra-silva-santos.github.io/Jogo-da-Forca/"
-                                target="_blank"><button class="experiencia__botao--demo">Ver
-                                    demo</button></a></span>
+
+
+
+            <section class="conteiner hobbies text-center">
+                <h3 id="hobbies">Hobbies</h3>
+                <div class="album py border- bg-">
+                    <div class="row row-cols-3 row-cols-md-6 row-cols-sm-3 g-2">
+                        <div class="col">
+                            <div class="card shadow-sm ">
+                                <img src="img/dormir.png" alt="Dormir" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger">Dormir</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="img/Estudar.png" alt="Estudar" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger">Estudar</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="img/futebol.png" alt="Bola de Futebol" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger"> SPFC ❤️</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="img/tv.png" alt="Desenho de TV" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger">Filmes e Series</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="img/controle.png" alt="Controle" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger">Jogos Retrô</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="img/guitar.png" alt="Guitarra" class="img-fluid">
+                                <div class="card-body">
+                                    <p class="card-text text-danger">Guitarra e Rock</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="academic text-center container">
+                <h3 id="academic">Formação e Cursos</h3>
+                <div class="album py-5 ">
+                    <div class="row row-cols-3 row-cols-md-6 row-cols-sm-3 g-2">
+                        <div class="col">
+                            <div class="card ">
+                                <img src="img/logo-univesp.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="Engenharia da Computação"
+                                            data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content="Iniciei a graduação em 2021. Muita felicidade em poder realizar meu grande sonho! ❤️ ">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/Google.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="UX Design" data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content="Certificação Proficional em UX Design do Google inicio em 2022. Estou amando o curso e aprendendo muita coisa interessante!">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card ">
+                                <img src="img/Coursera.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="Coursera" data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content="Curso de Python Parte 1. Inicio em 2021 e termino Fev/2022. Nas férias bora lá pra fazer a Python Parte 2">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/JABrasil_CCR.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="JA Brasil e CCR" data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content=" Curso com foco em  Desenvolvimento Web oferecido numa parceria da JA Brasil e Grupo CCR Inicio 2022 chegando ao fim agora em setembro. ">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/Dio.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="Game Developer" data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content="Curso com foco em  Desenvolvimento Web Inicio 2022 até o momento.">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/alura.png" alt="">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="popover"
+                                            data-bs-title="Oracle ONE" data-bs-custom-class="bg-ligth text-dark"
+                                            data-bs-content="Curso com foco em  Desenvolvimento (Back-end e Front-end) além de um  Combo de cursos adicionais para desenvolvemento pessoal e Empreendedorismo Inicio 2022 já chegando ao fim. Este portifolio foi uma das atividades propostas durante a trilha de aprendizagem. Feliz e grata pela oportunidade de ter participado deste projeto! ">Saiba
+                                            mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Trabalhando formulario para  Contatos -->
-        <section class="formcontato">
-            <div class="formcontato--esquerda">
-                <img class="formcontato__img" src="img/contato.png">
-            </div>
-            <div class="formcontato__text">
-                <h2 class="formcontato__title">Contato</h2>
-                <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
-                <h3 class="formcontato__subtext">Preencha o formulário.<br>Entrarei em contato o mais rápido
-                    possível. </h3><br>
-                <div id="msgError"></div>
-                <form action="" class="formcontato__form" id="contato">
-                    <label for="">Nome:</label>
-                    <input class="formcontato__input" type="text" id="nome" value="" placeholder="Digite seu nome"
-                        value="">
-                    <label for="">E-mail:</label>
-                    <input class="formcontato__input" type="email" id="email" onblur="checarEmail();"
-                        placeholder="exemplo@exemplo.com">
-                    <label for="">Assunto:</label>
-                    <input class="formcontato__input" type="text" id="assunto" placeholder="Qual o assunto?">
-                    <label for="">Mensagem:</label>
-                    <textarea class="formcontato__textarea" rows="8" cols="40" id="mensagem"
-                        placeholder="Deixe sua mensagem!"></textarea>
-                    <button class="formcontato__botao" id="btnForm" type="submit" onclick="">Enviar
-                        mensagem</button>
-                </form>
-            </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Footer-->
-        <section class="footer">
-            <div class="footer-rodape">
-                <p> * Refere-se ao conhecimento adquirido durante o aprendizado da trilha e não como experiência
-                    profissional. <br>** Conhecimentos adquiridos até aqui. </p>
-                </p><br>
-                <div>
-                    <p Desenvolvido por class="copyright"> &copy; Sandra - 2022 </p>
-                    <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><img src="img/github.png"
-                            alt="https://github.com/Sandra-Silva-Santos" class="logo-github"></a>
 
-                    <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><img src="img/linkedin.png"
-                            alt="https://linkedin.com/in/sandra-silva-santos" class="logo-linkedin"></a>
 
-                    <a href="https://www.instagram.com/negasaopaulina" target="_blank"><img src="img/instagram.png"
-                            alt="https://www.instagram.com/negasaopaulina" class="logo-instagram"></a>
 
-                    <a href="https://www.youtube.com/user/negasaopaulina" target="_blank"><img src="img/youtube.png"
-                            alt="https://www.youtube.com/user/negasaopaulina" class="logo-youtube"></a>
 
-                    <a href="https://www.last.fm/pt/user/negasaopaulina" target="_blank"><img src="img/lastfm.png"
-                            alt="hhttps://www.last.fm/pt/user/negasaopaulina" class="logo-lastfm"></a>
-                    <div>
+
+
+
+
+
+            <section class="experiencia text-center container">
+                <h3 id="experiencia">Experiência</h3>
+                <hr class="featurette-divider">
+
+                <div class="row container justify-content-center d-flex">
+                    <div class="col-md-4"><br><br>
+                        <h3 class="featurette-heading fw-normal lh-1 text-danger">Desafio </h3><br>
+                        <p class="fw-light">Criar um Decodificador de palavras usando HTML e CSS</p>
+                        <div>
+                            <a href="https://sandra-silva-santos.github.io/Decodificador/" target="_blank"
+                                class="btn btn-sm btn-danger ">Ver Demo</a>
+                            <a href="https://github.com/Sandra-Silva-Santos/Decodificador" target="_blank"
+                                class="btn btn-sm btn-danger">Repositório</a>
+                        </div><br>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="600" height="300" src="img/Decodificador.png" alt="Decodificador">
                     </div>
                 </div>
-        </section>
-        </div>
-        <!-- validação do formulario -->
-        <script src="js/validacao.js"></script>
-        </div>
-    </body>
+
+                <hr class="featurette-divider">
+
+                <div class="row container justify-content-center d-flex">
+                    <div class="col-md-6">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="600" height="300" src="img/Jogo-da-Forca.png" alt="Jogo da Forca">
+
+                    </div>
+                    <div class="col-md-4"><br><br>
+                        <h3 class="desafio  text-primary">Desafio</h3><br>
+                        <p class="fw-light">Criar um Jogo da Forca usando HTML CSS e JavaScript</p>
+                        <div>
+                            <a href="https://sandra-silva-santos.github.io/Jogo-da-Forca/" target="_blank"
+                                class="btn btn-sm btn-primary">Ver Demo</a>
+                            <a href="https://github.com/Sandra-Silva-Santos/Jogo-da-Forca" target="_blank"
+                                class="btn btn-sm btn-primary">Repositório</a>
+                        </div><br>
+                    </div>
+            </section>
+
+            <hr class="featurette-divider">
+
+            <section id="contact" class="content-section text-center">
+                <div class="contact-section">
+                    <div class="container">
+                        <h3 id="contato">Contato</h3>
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 g">
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="exampleInputName2">Nome</label>
+                                        <input type="text" class="form-control bd" id="exampleInputName2"
+                                            placeholder="Sandra Silva Santos">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail2"
+                                            placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="exampleInputText">Digite sua Menssagem</label>
+                                        <textarea class="form-control" placeholder="Menssagem"></textarea><br>
+                                    </div>
+
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Enviar
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-sm ">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+
+                                                </div>
+                                                <div class="modal-body">
+                                                    <P>Sua menssagem foi enviada com sucesso!</P>
+                                                </div>
+                                                <div class="modal-footer justify-content-center">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                    <a class="btn btn-primary" href="index.html" role="button">Home</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="pt-3 mt-4 text-center text-primary border-top">
+                &copy; 2022
+            </footer><br>
+            </div>
+
+    </main>
+
+
+    <footer class="text-center text">
+        <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><img src="img/linkedin.png"
+                alt="https://linkedin.com/in/sandra-silva-santos" class="logo-linkedin"></a>
+
+        <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><img src="img/github.png"
+                alt="https://github.com/Sandra-Silva-Santos" class="logo-github"></a>
+
+
+        <a href="https://www.instagram.com/negasaopaulina" target="_blank"><img src="img/instagram.png"
+                alt="https://www.instagram.com/negasaopaulina" class="logo-instagram"></a>
+
+        <a href="https://www.youtube.com/user/negasaopaulina" target="_blank"><img src="img/youtube.png"
+                alt="https://www.youtube.com/user/negasaopaulina" class="logo-youtube"></a>
+
+        <a href="https://www.last.fm/pt/user/negasaopaulina" target="_blank"><img src="img/lastfm.png"
+                alt="hhttps://www.last.fm/pt/user/negasaopaulina" class="logo-lastfm"></a>
+    </footer>
+    <br>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+
+
+
+</body>
 
 </html>
+            
