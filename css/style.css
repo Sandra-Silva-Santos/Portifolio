@@ -23,6 +23,17 @@ container {
     flex-direction: column;
 }
 
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bd-placeholder-img {
+    margin-bottom: 0;
+  }
+
 row {
     padding: 1em;
     display: flex;
