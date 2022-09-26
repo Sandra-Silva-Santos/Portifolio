@@ -30,7 +30,7 @@
                         <h1>Sandra</h1>
                     </div>
                     <div class="p-2">
-                        <button type="button" class=" btn bi bi-brightness-high-fill" id="toggleDark"></button>
+                        <button class="btn">Dark</button>
 
                     </div>
                 </div>
@@ -101,7 +101,7 @@
 
 
         <div class="container ">
-            <div class="row">
+            <div class="row ">
                 <div class="col-md-8">
                     <h2 class="skills" id="skills">Skills</h2><br>
                     <p class="fw-light">Essas são algumas das habilidades que estou aprendendo e desenvolvendo na trilha
@@ -129,7 +129,7 @@
 
             <section class="conteiner hobbies text-center">
                 <h3 id="hobbies">Hobbies</h3>
-                <div class="album py border- bg-">
+                <div class="album py border-">
                     <div class="row row-cols-3 row-cols-md-6 row-cols-sm-3 g-2">
                         <div class="col">
                             <div class="card shadow-sm ">
@@ -279,102 +279,106 @@
                 <h3 id="experiencia">Experiência</h3>
                 <hr class="featurette-divider">
 
-                <div class="row container justify-content-center d-flex">
-                    <div class="col-md-4"><br><br>
-                        <h3 class="featurette-heading fw-normal lh-1 text-danger">Desafio </h3><br>
-                        <p class="fw-light">Criar um Decodificador de palavras usando HTML e CSS</p>
+
+
+                <div class="row justify-content-center d-flex">
+                    <div class="col-md-4">
+                        <h3 class="desafio text-danger">Desafio </h3><br>
+                        <p class="fw-light small">Criar um Decodificador de palavras usando HTML CSS e javascript</p>
                         <div>
                             <a href="https://sandra-silva-santos.github.io/Decodificador/" target="_blank"
                                 class="btn btn-sm btn-danger ">Ver Demo</a>
                             <a href="https://github.com/Sandra-Silva-Santos/Decodificador" target="_blank"
                                 class="btn btn-sm btn-danger">Repositório</a>
-                        </div><br>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="600" height="300" src="img/Decodificador.png" alt="Decodificador">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg rounded img-fluid mx-auto" width="600"
+                            height="300" src="img/Decodificador.png" alt="Decodificador">
                     </div>
                 </div>
+                <hr class="featurette-divider ">
 
-                <hr class="featurette-divider">
-
-                <div class="row container justify-content-center d-flex">
+                <div class="row justify-content-center d-flex">
                     <div class="col-md-6">
-                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                            width="600" height="300" src="img/Jogo-da-Forca.png" alt="Jogo da Forca">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg rounded img-fluid mx-auto" width="600"
+                            height="300" src="img/Jogo-da-Forca.png" alt="Jogo da Forca">
 
                     </div>
-                    <div class="col-md-4"><br><br>
+                    <div class="col-md-4">
                         <h3 class="desafio  text-primary">Desafio</h3><br>
-                        <p class="fw-light">Criar um Jogo da Forca usando HTML CSS e JavaScript</p>
+                        <p class="fw-light small">Criar um Jogo da Forca usando HTML CSS e JavaScript</p>
                         <div>
                             <a href="https://sandra-silva-santos.github.io/Jogo-da-Forca/" target="_blank"
                                 class="btn btn-sm btn-primary">Ver Demo</a>
                             <a href="https://github.com/Sandra-Silva-Santos/Jogo-da-Forca" target="_blank"
                                 class="btn btn-sm btn-primary">Repositório</a>
-                        </div><br>
+                        </div>
                     </div>
-            </section>
 
-            <hr class="featurette-divider">
+                </div>
 
-            <section id="contact" class="content-section text-center">
-                <div class="contact-section">
-                    <div class="container">
-                        <h3 id="contato">Contato</h3>
 
-                        <div class="row justify-content-center">
-                            <div class="col-md-6 g">
-                                <form class="form-horizontal">
-                                    <div class="form-group">
-                                        <label for="exampleInputName2">Nome</label>
-                                        <input type="text" class="form-control bd" id="exampleInputName2"
-                                            placeholder="Sandra Silva Santos">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail2">Email</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail2"
-                                            placeholder="email@example.com">
-                                    </div>
-                                    <div class="form-group ">
-                                        <label for="exampleInputText">Digite sua Menssagem</label>
-                                        <textarea class="form-control" placeholder="Menssagem"></textarea><br>
-                                    </div>
 
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        Enviar
-                                    </button>
+                <hr class="featurette-divider ">
+                <section id="contact" class="content-section text-center">
+                    <div class="contact-section">
+                        <div class="container">
+                            <h3 id="contato">Contato</h3>
 
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-sm ">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 g">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="exampleInputName2">Nome</label>
+                                            <input type="text" class="form-control bd" id="exampleInputName2"
+                                                placeholder="Sandra Silva Santos">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail2">Email</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                                placeholder="email@example.com">
+                                        </div>
+                                        <div class="form-group ">
+                                            <label for="exampleInputText">Digite sua Menssagem</label>
+                                            <textarea class="form-control" placeholder="Menssagem"></textarea><br>
+                                        </div>
 
-                                                </div>
-                                                <div class="modal-body bg-ligth text-dark">
-                                                    <P>Sua menssagem foi enviada com sucesso!</P>
-                                                </div>
-                                                <div class="modal-footer justify-content-center">
-                                                    <button type="button" class="btn btn-secondary"
-                                                        data-bs-dismiss="modal">Fechar</button>
-                                                    <a class="btn btn-primary" href="index.html" role="button">Home</a>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            Enviar
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-sm ">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+
+                                                    </div>
+                                                    <div class="modal-body bg-ligth text-dark">
+                                                        <P>Sua menssagem foi enviada com sucesso!</P>
+                                                    </div>
+                                                    <div class="modal-footer justify-content-center">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Fechar</button>
+                                                        <a class="btn btn-primary" href="index.html"
+                                                            role="button">Home</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <footer class="pt-3 mt-4 text-center text-primary border-top">
-                &copy; 2022
-            </footer><br>
+                <footer class="pt-3 mt-4 text-center text-primary border-top">
+                    &copy; 2022
+                </footer><br>
         </div>
 
     </main>
